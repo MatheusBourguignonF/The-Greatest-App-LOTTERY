@@ -1,0 +1,240 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7F7;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    border-bottom: solid 2px #EBEBEB;
+    height: 60px;
+}
+.border{
+    background-color: #B5C401;
+    height: 6px;
+    border-radius: 6px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 0px;
+    margin-top: 12px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.a_account{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #707070;
+    text-decoration: none;
+    margin-left: 700px;
+}
+.a_logout{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #707070;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.svg_1{
+    color: #707070;
+    width: 21px;
+    height: auto;
+    padding-left: 20px;
+}
+.div_top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    padding-top: 70px;
+    padding-bottom: 35px;
+}
+h2{
+    width: 195px;
+    margin: 0;
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+}
+.p_filters{
+    display: inline;
+    color: #868686;
+    font-family: Helvetica;
+    font-style: italic;
+    font-size: 17px;
+    margin-right: 20px;
+}
+.button_1{
+    all: unset;
+    color: #7F3992;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 2px;
+    border-radius: 100px;
+    padding: 9px 27px;
+    margin-right: 20px;
+    background-color: white;
+}
+.button_2{
+    all:unset;
+    color: #01AC66;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 2px #01AC66;
+    border-radius: 100px;
+    padding: 9px 27px;
+    margin-right: 20px; 
+    background-color: white;
+}
+.button_3{
+    all: unset;
+    color: #F79C31;
+    font-size: 14px; 
+    font-style:italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: solid 2px #F79C31;
+    border-radius: 100px;
+    padding: 9px 27px;
+    background-color: white;
+}
+.a_bet{
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B5C401;
+    font-size: 24px;
+}
+.new_bet{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+.svg_2{
+    color: #B5C401;
+    width: 25px;
+    height: auto;
+}
+.div_filters{
+    width: 600px;
+}
+.h3_1{
+    color: #868686;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.h3_2{
+    color: #7F3992;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.h3_3{
+    color: #868686;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.h3_4{
+    color: #01AC66;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.h3_5{
+    color: #868686;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.h3_6{
+    color: #F79C31;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.p_desc{
+    color: #868686;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    text-align: center;
+    padding-bottom: 2px;
+    border-top: solid 2px #EBEBEB;
+}
+.p_footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #707070;
+    font-size: 15px;
+}
+.games{
+    height: 417px;
+    padding-left: 15px;
+}
+.border2{
+    background-color: #7F3992;
+    height: 110px;
+    width: 6px;
+    border-radius: 100px;
+    margin-top: 12px;
+}
+.border3{
+    background-color: #01AC66;
+    height: 110px;
+    width: 6px;
+    border-radius: 100px;
+    margin-top: 24px;
+}
+.border4{
+    background-color: #F79C31;
+    height: 110px;
+    width: 6px;
+    border-radius: 100px;
+    margin-top: 23px;
+}
+.container{
+    display: flex;
+}
+.borders{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+article{
+    padding-bottom: 10px;
+}
+h3{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+

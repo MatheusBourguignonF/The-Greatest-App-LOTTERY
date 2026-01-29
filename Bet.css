@@ -1,0 +1,362 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7F7;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 0px;
+    margin-top: 12px;
+}
+.a_home{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #707070;
+    text-decoration: none;
+}
+.a_account{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #707070;
+    text-decoration: none;
+    margin-left: 700px;
+}
+.a_logout{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #707070;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.svg_arrow1{
+    color: #707070;
+    width: 21px;
+    height: auto;
+    padding-left: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    border-bottom: solid 2px #EBEBEB;
+    height: 60px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.border_h1{
+    background-color: #B5C401;
+    height: 6px;
+    width: auto;
+    border-radius: 6px;
+}
+h2{
+    color: #707070; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+}
+b{
+    font-weight: bold;
+}
+.section_1{
+    display: flex;
+    flex-flow: column;
+}
+.h3_1{
+    font-family: helvetica;
+    font-size: 17px;
+    color: #868686;
+    font-weight: bold;
+    font-style: italic;
+}
+.buttons1{
+    display: flex;
+    width: 400px; 
+    justify-content: space-between; 
+    margin-top: 20px;
+}
+.lotofacil{
+    all: unset;
+    border: solid 2px #7F3992;
+    border-radius: 100px;
+    width: 113px;
+    height: 34px;
+    text-align: center;
+    color: #7F3992; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+.mega-sena{
+    all: unset;
+    border: solid 2px #01AC66;
+    border-radius: 100px;
+    width: 113px;
+    height: 34px;
+    text-align: center;
+    color: #01AC66; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14px;
+    background-color: white;
+}
+.lotomania{
+    all: unset;
+    border: solid 2px #F79C31;
+    border-radius: 100px;
+    width: 113px;
+    height: 34px;
+    text-align: center;
+    color: #F79C31; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14px;
+    background-color: white;
+}
+main{
+    display: flex;
+    height: auto;
+}
+.sections{
+    width: 835px;
+    height: 700px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+aside{
+    border: solid 1px #E2E2E2;
+    border-radius: 10px;
+    margin-top: 40px;
+    width: 310px;
+    height: 497.5px;
+    background-color: #FFFFFF;
+
+}
+.h2_cart{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+    color: #707070;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  
+}
+.h4_numbers{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #868686;
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.h4_loto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #7F3992;
+    font-size: 16px;
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 15px;
+    display: inline;
+}
+.h4_mega{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #01AC66;
+    font-size: 16px;
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 15px;
+    display: inline;
+}
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    color: #868686;
+    font-size: 16px;
+}
+.a_save{
+    display: inline;
+    color: #27C383;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+}
+.svg_arrow2{
+    color: #27C383;
+    margin-left: 10px ;
+}
+.div_save{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 97px;
+    text-align: center;
+    background-color: #F7F7F7;
+    border-top: solid 1px #E2E2E2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.div_game1{
+    display: flex;
+    margin-bottom: 30px;
+}
+.div_game2{
+    display: flex;
+}
+.div_border1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: solid 4px #7F3992;
+    border-radius: 4px;
+    width: 250px;
+    height: 80px;
+}
+.div_border2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: solid 4px #01AC66;
+    border-radius: 4px;
+    height: 60px;
+}
+.h2_total{
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.svg_trash1{
+    margin: 30px 10px;
+}
+.svg_trash2{
+    margin: 18px 10px;
+}
+h3{
+    color: #868686;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.div_description{
+    width: 750px;
+}
+.p_description{
+    margin: 0px;
+    color: #868686;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-style: italic;
+}
+.buttons2{
+    display: flex;
+    margin: 30px 0px;
+    width: 800px;
+    height: 300px;
+}
+.div_groupbuttons{
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.button_bet{
+    all: unset;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ADC0C4;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+.final_buttons{
+    display: flex;
+}
+.button_complete{
+    all: unset;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #27C383;
+    font-size: 16px;
+    border: solid 2px #27C383;
+    border-radius: 10px;
+    width: 164px;
+    height: 52px;
+    text-align: center;
+    margin-right: 25px;
+    margin-left: 10px;
+}
+.button_clear{
+    all: unset;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #27C383;
+    font-size: 16px;
+    border: solid 2px #27C383;
+    border-radius: 10px;
+    width: 164px;
+    height: 52px;
+    text-align: center;
+    margin-right: 170px;  
+}
+.button_add{
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: solid 2px #27C383;
+    border-radius: 10px;
+    width: 164px;
+    height: 52px;
+    text-align: center;
+    background-color: #27C383;  
+}
+footer{
+    display: block;
+    border-top: solid 2px #EBEBEB;
+    margin-top: 100px;
+}
+.p_footer{
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
