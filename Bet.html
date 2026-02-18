@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bet - The Geatest LOTERRY</title>
-    <link rel="stylesheet" href="Bet.css">
+    <link rel="stylesheet" href="bet.css">
+    <script src="bet.js" defer></script>
 </head>
 <body>
     <header>
@@ -12,11 +13,13 @@
             <h1>TGL</h1>
             <div class="border_h1"></div>
         </div>
-        <nav>
+        <div class="home">
             <a class="a_home" href="Games.html">Home</a>
+        </div>
+        <nav>
+            
             <a class="a_account" href="">Account</a>
-            <a class="a_logout" href="LogIn.html">Log Out</a>
-            <svg class="svg_arrow1" width="24" height="24" viewBox="0 0 24 24" fill="none"xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14M13 5l6 7-6 7"stroke="currentColor"stroke-width="2"stroke-linecap="round"stroke-linejoin="round"/></svg>
+            <a class="a_logout" href="LogIn.html">Log Out <svg class="svg_arrow1" width="24" height="24" viewBox="0 0 24 24" fill="none"xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14M13 5l6 7-6 7"stroke="currentColor"stroke-width="2"stroke-linecap="round"stroke-linejoin="round"/></svg></a>   
         </nav>
     </header>
     <main>
@@ -24,11 +27,7 @@
             <section class="section_1">
                 <h2><b>NEW BET</b> FOR MEGA-SENA</h2>
                 <h3 class="h3_1">Choose a game</h3>
-                <div class="buttons1">
-                    <button class="lotofacil">Lotofácil</button>
-                    <button class="mega-sena">Mega-Sena</button>
-                    <button class="lotomania">Lotomania</button>
-                </div>
+                <div class="buttons1"></div>
             </section>
             <section>
                 <div class="div_description">
@@ -101,14 +100,14 @@
         <aside>
             <h2 class="h2_cart">CART</h2>
             <div class="div_game1">
-                <svg class="svg_trash1" id="Layer_1" enable-background="new 0 0 512 512" height="24" viewBox="0 0 512 512" width="20" xmlns="http://www.w3.org/2000/svg"><g><path d="m424 64h-88v-16c0-26.467-21.533-48-48-48h-64c-26.467 0-48 21.533-48 48v16h-88c-22.056 0-40 17.944-40 40v56c0 8.836 7.164 16 16 16h8.744l13.823 290.283c1.221 25.636 22.281 45.717 47.945 45.717h242.976c25.665 0 46.725-20.081 47.945-45.717l13.823-290.283h8.744c8.836 0 16-7.164 16-16v-56c0-22.056-17.944-40-40-40zm-216-16c0-8.822 7.178-16 16-16h64c8.822 0 16 7.178 16 16v16h-96zm-128 56c0-4.411 3.589-8 8-8h336c4.411 0 8 3.589 8 8v40c-4.931 0-331.567 0-352 0zm313.469 360.761c-.407 8.545-7.427 15.239-15.981 15.239h-242.976c-8.555 0-15.575-6.694-15.981-15.239l-13.751-288.761h302.44z"/><path d="m256 448c8.836 0 16-7.164 16-16v-208c0-8.836-7.164-16-16-16s-16 7.164-16 16v208c0 8.836 7.163 16 16 16z"/><path d="m336 448c8.836 0 16-7.164 16-16v-208c0-8.836-7.164-16-16-16s-16 7.164-16 16v208c0 8.836 7.163 16 16 16z"/><path d="m176 448c8.836 0 16-7.164 16-16v-208c0-8.836-7.164-16-16-16s-16 7.164-16 16v208c0 8.836 7.163 16 16 16z"/></g></svg>
+                <button class="trash"><svg class="svg_trash1" id="Layer_1" enable-background="new 0 0 512 512" height="24" viewBox="0 0 512 512" width="20" xmlns="http://www.w3.org/2000/svg"><g><path d="m424 64h-88v-16c0-26.467-21.533-48-48-48h-64c-26.467 0-48 21.533-48 48v16h-88c-22.056 0-40 17.944-40 40v56c0 8.836 7.164 16 16 16h8.744l13.823 290.283c1.221 25.636 22.281 45.717 47.945 45.717h242.976c25.665 0 46.725-20.081 47.945-45.717l13.823-290.283h8.744c8.836 0 16-7.164 16-16v-56c0-22.056-17.944-40-40-40zm-216-16c0-8.822 7.178-16 16-16h64c8.822 0 16 7.178 16 16v16h-96zm-128 56c0-4.411 3.589-8 8-8h336c4.411 0 8 3.589 8 8v40c-4.931 0-331.567 0-352 0zm313.469 360.761c-.407 8.545-7.427 15.239-15.981 15.239h-242.976c-8.555 0-15.575-6.694-15.981-15.239l-13.751-288.761h302.44z"/><path d="m256 448c8.836 0 16-7.164 16-16v-208c0-8.836-7.164-16-16-16s-16 7.164-16 16v208c0 8.836 7.163 16 16 16z"/><path d="m336 448c8.836 0 16-7.164 16-16v-208c0-8.836-7.164-16-16-16s-16 7.164-16 16v208c0 8.836 7.163 16 16 16z"/><path d="m176 448c8.836 0 16-7.164 16-16v-208c0-8.836-7.164-16-16-16s-16 7.164-16 16v208c0 8.836 7.163 16 16 16z"/></g></svg></button>
                 <div class="div_border1">
                     <h4 class="h4_numbers">01, 02, 04, 05, 06, 07, 09, 15, 17, 20, 21, 22, 23, 24, 25</h4>
                     <h4 class="h4_loto">Lotofácil <span>R$ 2,50</span></h4>
                 </div>
             </div>
             <div class="div_game2">
-                <svg class="svg_trash2" id="Layer_1" enable-background="new 0 0 512 512" height="24" viewBox="0 0 512 512" width="20" xmlns="http://www.w3.org/2000/svg"><g><path d="m424 64h-88v-16c0-26.467-21.533-48-48-48h-64c-26.467 0-48 21.533-48 48v16h-88c-22.056 0-40 17.944-40 40v56c0 8.836 7.164 16 16 16h8.744l13.823 290.283c1.221 25.636 22.281 45.717 47.945 45.717h242.976c25.665 0 46.725-20.081 47.945-45.717l13.823-290.283h8.744c8.836 0 16-7.164 16-16v-56c0-22.056-17.944-40-40-40zm-216-16c0-8.822 7.178-16 16-16h64c8.822 0 16 7.178 16 16v16h-96zm-128 56c0-4.411 3.589-8 8-8h336c4.411 0 8 3.589 8 8v40c-4.931 0-331.567 0-352 0zm313.469 360.761c-.407 8.545-7.427 15.239-15.981 15.239h-242.976c-8.555 0-15.575-6.694-15.981-15.239l-13.751-288.761h302.44z"/><path d="m256 448c8.836 0 16-7.164 16-16v-208c0-8.836-7.164-16-16-16s-16 7.164-16 16v208c0 8.836 7.163 16 16 16z"/><path d="m336 448c8.836 0 16-7.164 16-16v-208c0-8.836-7.164-16-16-16s-16 7.164-16 16v208c0 8.836 7.163 16 16 16z"/><path d="m176 448c8.836 0 16-7.164 16-16v-208c0-8.836-7.164-16-16-16s-16 7.164-16 16v208c0 8.836 7.163 16 16 16z"/></g></svg>
+                <button class="trash" ><svg class="svg_trash2" id="Layer_1" enable-background="new 0 0 512 512" height="24" viewBox="0 0 512 512" width="20" xmlns="http://www.w3.org/2000/svg"><g><path d="m424 64h-88v-16c0-26.467-21.533-48-48-48h-64c-26.467 0-48 21.533-48 48v16h-88c-22.056 0-40 17.944-40 40v56c0 8.836 7.164 16 16 16h8.744l13.823 290.283c1.221 25.636 22.281 45.717 47.945 45.717h242.976c25.665 0 46.725-20.081 47.945-45.717l13.823-290.283h8.744c8.836 0 16-7.164 16-16v-56c0-22.056-17.944-40-40-40zm-216-16c0-8.822 7.178-16 16-16h64c8.822 0 16 7.178 16 16v16h-96zm-128 56c0-4.411 3.589-8 8-8h336c4.411 0 8 3.589 8 8v40c-4.931 0-331.567 0-352 0zm313.469 360.761c-.407 8.545-7.427 15.239-15.981 15.239h-242.976c-8.555 0-15.575-6.694-15.981-15.239l-13.751-288.761h302.44z"/><path d="m256 448c8.836 0 16-7.164 16-16v-208c0-8.836-7.164-16-16-16s-16 7.164-16 16v208c0 8.836 7.163 16 16 16z"/><path d="m336 448c8.836 0 16-7.164 16-16v-208c0-8.836-7.164-16-16-16s-16 7.164-16 16v208c0 8.836 7.163 16 16 16z"/><path d="m176 448c8.836 0 16-7.164 16-16v-208c0-8.836-7.164-16-16-16s-16 7.164-16 16v208c0 8.836 7.163 16 16 16z"/></g></svg></button>
                 <div class="div_border2">
                     <h4 class="h4_numbers">01, 03, 04, 05, 06</h4>
                         <h4 class="h4_mega">Mega-Sena <span>R$ 4,50</span></h4>
@@ -116,8 +115,7 @@
             </div>
             <h2 class="h2_total"><b>CART</b> TOTAL: R$ 7,00</h2>
             <div class="div_save">
-                <a class="a_save">Save</a>
-                <svg class="svg_arrow2" width="24" height="24" viewBox="0 0 24 24" fill="none"xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14M13 5l6 7-6 7"stroke="currentColor"stroke-width="2"stroke-linecap="round"stroke-linejoin="round"/></svg>
+                <button class="a_save">Save <svg class="svg_arrow2" width="24" height="24" viewBox="0 0 24 24" fill="none"xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14M13 5l6 7-6 7"stroke="currentColor"stroke-width="2"stroke-linecap="round"stroke-linejoin="round"/></svg></button> 
             </div>
         </aside>
     </main>

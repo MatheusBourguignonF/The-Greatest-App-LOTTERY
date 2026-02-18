@@ -28,6 +28,11 @@ h1{
     font-weight: bold;
     color: #707070;
     text-decoration: none;
+    margin-left: 10%;
+}
+button{
+    background-color: #F7F7F7;
+    border: none;
 }
 .a_account{
     font-family: Arial, Helvetica, sans-serif;
@@ -36,9 +41,9 @@ h1{
     font-weight: bold;
     color: #707070;
     text-decoration: none;
-    margin-left: 700px;
 }
 .a_logout{
+    display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: italic;
@@ -93,7 +98,7 @@ b{
 }
 .buttons1{
     display: flex;
-    width: 400px; 
+    width: 500px; 
     justify-content: space-between; 
     margin-top: 20px;
 }
@@ -155,7 +160,7 @@ aside{
     border-radius: 10px;
     margin-top: 40px;
     width: 310px;
-    height: 497.5px;
+    height: 507px;
     background-color: #FFFFFF;
 
 }
@@ -366,6 +371,14 @@ footer{
     font-size: 15px;
     text-align: center;
 }
+.trash{
+    background-color: #FFFFFF;
+}
 
-
-
+button:hover{
+    cursor: pointer;
+}
+.home{
+    display: flex;
+    flex: 1;
+}
