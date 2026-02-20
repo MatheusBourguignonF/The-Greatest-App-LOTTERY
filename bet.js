@@ -1,5 +1,6 @@
 let gameTypes = [] 
 let selectedButton = null 
+
 async function getAllGames() { 
     try{ 
         const result = await fetch('games.json')    
@@ -31,6 +32,9 @@ function click(button, type) {
     button.style.color = 'white'
 
     selectedButton = button
+
+    createDescription(type)
+    createNumbers(type)
 }
 
 function createButtons(types) { 
@@ -60,6 +64,8 @@ function createButtons(types) {
             button.style.background = type.color
             button.style.color = 'white'
             selectedButton = button
+            createDescription(type)
+            createNumbers(type)
         }
         button.addEventListener('click', () => {
             click(button, type)
@@ -68,4 +74,32 @@ function createButtons(types) {
     })
 }
 
+function createDescription(type) {
+    const description = document.createElement('description')
+    const descriptionContainer = document.querySelector('.div_description2')
+
+    descriptionContainer.innerHTML = ''
+
+    const p = document.createElement('p')
+    p.innerText = type.description
+
+    descriptionContainer.appendChild(p)
+    p.className = 'p_description'
+}
+
+function createNumbers(type) {
+    const numbersContainer = document.querySelector('.Number_Buttons')
+
+    numbersContainer.innerHTML = ''  
+
+    Array.from({length: type.range}).map((index,number) =>{
+        const button = document.createElement('button')
+        button.innerText = number + 1
+        button.className = 'button_bet'
+
+        numbersContainer.appendChild(button)
+        
+    }
+    )
+}
 
