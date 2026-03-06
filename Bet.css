@@ -160,7 +160,7 @@ aside{
     border-radius: 10px;
     margin-top: 40px;
     width: 310px;
-    height: 508px;
+    min-height: 32  0px;
     background-color: #FFFFFF;
 
 }
@@ -174,7 +174,8 @@ aside{
     margin-bottom: 50px;
   
 }
-.h4_numbers{
+.numbers{
+    text-align: start;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-style: italic;
@@ -188,7 +189,6 @@ aside{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-style: italic;
-    color: #7F3992;
     font-size: 16px;
     margin: 0;
     margin-left: 10px;
@@ -212,8 +212,9 @@ span{
     font-weight: lighter;
     color: #868686;
     font-size: 16px;
+    margin-left: 15px;
 }
-.a_save{
+.save{
     display: inline;
     color: #27C383;
     font-family: Arial, Helvetica, sans-serif;
@@ -237,40 +238,30 @@ span{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-.div_game1{
+.games{
     display: flex;
     margin-bottom: 30px;
-}
-.div_game2{
-    display: flex;
+    flex-direction: column;
 }
 .div_border1{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-left: solid 4px #7F3992;
+    align-items: start;
+    border-left: solid 4px;
     border-radius: 4px;
     width: 250px;
     height: 80px;
 }
-.div_border2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-left: solid 4px #01AC66;
-    border-radius: 4px;
-    height: 60px;
-}
-.h2_total{
+.total{
     margin-left: 20px;
     margin-bottom: 50px;
     margin-top: 50px;
+    font-size: 24px;
+    font-weight: lighter;
 }
 .svg_trash1{
-    margin: 30px 10px;
-}
-.svg_trash2{
-    margin: 18px 10px;
+    margin: 9px;
 }
 h3{
     color: #868686;
@@ -323,7 +314,7 @@ h3{
 .final_buttons{
     display: flex;
 }
-.button_complete{
+.complete{
     all: unset;
     font-family: Arial, Helvetica, sans-serif;
     color: #27C383;
@@ -336,7 +327,7 @@ h3{
     margin-right: 25px;
     margin-left: 10px;
 }
-.button_clear{
+.clear{
     all: unset;
     font-family: Arial, Helvetica, sans-serif;
     color: #27C383;
@@ -387,3 +378,15 @@ button:hover{
     display: flex;
     flex: 1;
 }
+.allDiv{
+    display: flex;
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.mensagem{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    margin-left: 20px;
+    font-style: italic;
+}
+
